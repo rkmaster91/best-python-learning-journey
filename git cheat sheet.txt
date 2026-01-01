@@ -1,0 +1,114 @@
+GIT CHEAT SHEET (COPY & PASTE)
+
+============================
+
+BASICS
+
+git init
+Initialize git in current folder
+
+git clone <repo-url>
+Clone existing online repo
+
+git status
+Check current changes (MOST USED)
+
+STAGING FILES
+
+git add .
+Stage ALL files for next commit
+
+git add filename.ext
+Stage ONLY one file
+
+git add file1 file2 file3
+Stage multiple specific files
+
+COMMIT
+
+git commit -m "commit message"
+Create a commit (save point)
+
+git commit --amend
+Edit last commit (before push only)
+
+REMOTE (GITHUB / GITLAB)
+
+git remote -v
+Check current remote URLs
+
+git remote add origin <repo-url>
+Add remote repo
+
+git remote set-url origin <new-repo-url>
+Change origin to another repo
+
+git remote remove origin
+Remove origin completely
+
+PUSH / PULL
+
+git branch -M main
+Rename branch to main (first time)
+
+git push -u origin main
+First time push
+
+git push
+Normal push
+
+git pull
+Get latest changes from remote
+
+UNDO / FIX
+
+git restore --staged filename.ext
+Unstage a file
+
+git reset --soft HEAD~1
+Undo last commit (keep changes)
+
+BRANCHES (BASIC)
+
+git branch
+List branches
+
+git branch new-branch
+Create new branch
+
+git checkout new-branch
+Switch branch
+
+DAILY WORKFLOW (MEMORIZE)
+
+git status
+git add .
+git commit -m "what you changed"
+git push
+
+COMMON ERRORS
+
+nothing to commit
+-> No file changed or nothing staged
+Run: git status
+
+MENTAL MODEL
+
+Repo = Notebook
+Stage = Select pages
+Commit = Take photo
+Push = Upload photo
+
+IMPORTANT NOTES
+
+Do NOT run git init again
+
+One project = one repo
+
+Commit often
+
+Use .gitignore for junk files
+
+============================
+
+END OF CHEAT SHEET

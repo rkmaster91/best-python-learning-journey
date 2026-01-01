@@ -14,3 +14,23 @@ age2 = age
 
 #to print the type of a variable
 print(type(age))
+print(type(name))
+print(type(price_of_my_laptop))
+
+
+#data types
+
+age3 = 13
+old = False
+a = None
+print(type(age3))
+print(type(old))
+
+
+
+
+
+
+
+
+
