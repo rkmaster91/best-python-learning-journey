@@ -13,3 +13,4 @@ print("the price of my laptop is : ", price_of_my_laptop)
 age2 = age
 
 #to print the type of a variable
+print(type(age))
