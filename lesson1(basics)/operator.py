@@ -7,5 +7,5 @@ print(a-b)
 print(a*b)
 print(a/b)
 print(a%b) # print remainder ie modulus
-print(a//b) # print the quotient without the decimal
+print(a//b) # print the quotient without the decimal   
 print(a**b)
